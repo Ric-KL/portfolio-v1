@@ -44,7 +44,7 @@ return (
           </div>
         </div>
       </div>
-      <div className='project-container bounds'>
+      <div className='project-container bounds d-none'>
         project carasoul
       </div>
       <div className='about-container'>
