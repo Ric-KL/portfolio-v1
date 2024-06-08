@@ -153,14 +153,9 @@ p {
 
         .about-me-text-container {
             min-width: 511px;
-            width: 100%;
         }
 
         .about-me-image-container {
-            min-width: 590px;
-            min-height: 511px;
-            width: 100%;
-            height: 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;

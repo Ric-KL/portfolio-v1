@@ -65,7 +65,7 @@ return (
               When I’m looking for something more relaxed, I boot up my computer and play some video games, watch movies with my friends, and spend time with my pets.
             </p>
           </div>
-          <div className='about-me-image-container'>
+          <div className='about-me-image-container bounds'>
             <div className='large-img placeholder-img'>
 
             </div>
