@@ -1,0 +1,298 @@
+body {
+    color: white;
+    font-family: "League Spartan", sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.bounds {
+    border: solid green 3px;
+}
+
+.main-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-image: url("./assets/portfolioBG.png");
+    object-fit: fill;
+    background-size: cover;
+}
+
+.hero-container {
+    min-height: 600px;
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 50px;
+}
+
+    .hero-portrait-card-container{
+        display: flex;
+        height: 600px;
+        width: 400px;
+        border-radius: 15px;
+        background-color: #6A6A6A;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        gap: 15px;
+        border: solid black 3px;
+        box-shadow: 10px 10px 10px 1px black;
+    }
+
+        .hero-image {
+            width: 380px;
+            height: 505px;
+            flex-shrink: 0;
+            background-image: url("./assets/headshot1.png");
+            background-size: cover;
+            background-position: center;
+            border-top: solid black 3px;
+            border-bottom: solid black 3px;
+        }
+
+        .card-socials-container {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            gap: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+            .social-button {
+                display: flex;
+                height: 50px;
+                width: 50px;
+            }
+
+            .social-button:hover{
+                animation-name: social-hover;
+                animation-duration: 0.5s;
+                animation-fill-mode: forwards;
+            }
+
+            .linkedin-img {
+                background-image: url("./assets/linkedinblack.png");
+                background-position: center;
+                background-size: contain;
+            }
+
+            .github-img {
+                background-image: url("./assets/githubblack.png");
+                background-position: center;
+                background-size: contain;
+            }
+
+            @keyframes social-hover {
+                100% {
+                    scale: 1.12;
+                }
+            }
+
+    .hero-text-container {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        height: 100%;
+        border-bottom: solid white 3px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+        .hero-header {
+            border-bottom: solid white 3px;
+        }
+
+.project-container {
+    height: 320px;
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+}
+
+.about-container {
+    min-height: 600px;
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+    .about-me-header {
+        border-bottom: solid white 3px;
+    }
+
+    .about-me-content-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+    }
+
+        .about-me-text-container {
+            min-width: 511px;
+            width: 100%;
+        }
+
+        .about-me-image-container {
+            min-width: 590px;
+            min-height: 511px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+        }
+
+            .large-img {
+                width: 590px;
+                height: 337.26px;
+                border-radius: 15px;
+            }
+
+            .small-img-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 12px
+            }
+
+                .small-img {
+                    width: 289px;
+                    height: 161.74px;
+                    border-radius: 15px;
+                }
+
+            .placeholder-img {
+                background-image: url("./assets/imgPlaceholder.png");
+                background-size: cover;
+                background-position: center;
+            }
+
+            .img-3 {
+                background-image: url("./assets/cat1.png");
+                background-size: cover;
+                background-position: center;    
+            }
+
+.contact-header {
+    display: flex;
+    width: 100%;
+    border-bottom: solid white 3px
+}
+
+.contact-container {
+    min-height: 390px;
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 390px;
+    max-width: 1240px;
+    width: 100%;
+    gap: 20px
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+    .user-inputs-container {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+    }
+
+        .input-fields-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            gap: 20px;
+            padding-right: 30px
+        }
+
+        .inputs-labels-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            gap: 20px;
+            padding-right: 10px;
+        }
+
+    .user-message-container {
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+        
+        .user-message-area {
+            height: 235px;
+            width: 100%;
+            resize: none;
+        }
+
+    .submit-container {
+        display: flex;
+        justify-content: end;
+    }
+
+    .submit-button {
+        width: 120px;
+        height: 37px;
+        border-radius: 10px;
+    }
+
+    .form-height {
+        height: 43px;
+        margin: 0px
+    }
+
+@media only screen and (max-width: 992px) {
+    .main-container{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .about-me-content-container {
+        flex-direction: column;
+    }
+    .form-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+  }
