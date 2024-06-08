@@ -295,4 +295,12 @@ p {
         flex-direction: column;
         gap: 30px;
     }
+    .large-img {
+        width: 442.5px;
+        height: 252.95px;
+    }
+    .small-img {
+        width: 216.75px;
+        height: 121.31px;
+    }
   }
